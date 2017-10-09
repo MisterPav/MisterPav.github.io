@@ -1,9 +1,12 @@
-﻿.boxFrame{
+﻿body{
+	padding-top:50px;
+}
+.boxFrame{
 	border-style:solid;
 	border-width:2px;
 	border-color:#000000;
 }
 
-  #section1 {padding-top:10px; background-color:red}
-  #section2 {padding-top:10px; background-color:green}
-  #section3 {padding-top:10px; background-color:orange}
+  #section1 {padding-top:10px;padding-bottom:10px;background-color:#a6c3e1}
+  #section2 {padding-top:10px;padding-bottom:10px;background-color:#7ea1c7}
+  #section3 {padding-top:10px;padding-bottom:10px;background-color:#8e91b0}
