@@ -1,157 +1,179 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Pavel Kozlov's Portfolio</title>
-	<link rel="stylesheet" target="_blank" type="text/css" href="style.css" />
-	<link rel="stylesheet" target="_blank" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link rel="stylesheet" target="_blank" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Flawless I.T. Services</title>
+    <!-- Page Icon -->
+    <link rel="icon" type="image/png" src="images/fitIcon.png">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:700" rel="stylesheet">
+    <!-- Bootstrap Styles -->
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap Scripts -->
+    <script src="scripts/bootstrap.js"></script>
+    <!--Custom Script-->
+    <script src="scripts/scripts.js"></script>
 </head>
 
-<body data-spy="scroll" data-target=".navbar">
-	<nav class="navbar navbar-default navbar-fixed-top" style="padding-top:-25px">
-	  <div class="container-fluid">
-		<div class="navbar-header">
-			<a href="#" target="_blank" class="navbar-left"><img src="images\logo.png" height="50" width="50"></a>
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>				
-			</button>
-		</div>
-		
-		<div>
-			<div class="collapse navbar-collapse" id="myNavbar">
-			    <ul class="nav navbar-nav navbar-right">
-			      <li><a href="#topbackgroundImage" target="_blank">About Me</a></li>
-			      <li><a href="#portfolio" target="_blank">Portfolio</a></li>
-			    </ul>
-			</div>
-		</div>
-	  </div>
-	</nav>
-	
-	<div class="container-fluid">
-		<div id="contentScroll" class="row">
-			<div class="col-sm-10 col-sm-offset-1">
-				<div id="topbackgroundImage">
-					<img class="img-responsive" src="images\BackGround_top.jpeg" height="200px" style="margin-top: -50px">
-				</div>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid displayBox">
+            <div class="navbar-header">
+                <img class="navbar-brand" src="images/CirclePerspSm.png" alt="FIT Logo" style="height: 60pt; padding-left: 0pt;">
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">HOME</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#contacts">CONTACTS</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://flawless.screenconnect.com/" target="_self" style="white-space: pre-wrap"><span class="glyphicon glyphicon-wrench" style="color: var(--colorBurn)"></span>   GET SUPPORT</a></li>
+                <li><a href="https://flawless.servicedesk.comodo.com/" target="_self" style="white-space: pre-wrap"><span class="glyphicon glyphicon-log-in" style="color: var(--colorBurn)"></span>   HELPDESK</a></li>
+            </ul>
+        </div>
+    </nav>
 
-				<div id="aboutMe" style="padding-top: 50px; margin-top: -40px">
-					<img id="myPhoto" src="https://avatars0.githubusercontent.com/u/27497918?v=3" height="200px" width="200px" class="center-block">
-					<hr style="width:50%; border-color:#7ea1c7; border-width:5px">
-					<hr style="width:30%; border-color:#7ea1c7; border-width:4px">
-					<h1 class="text-center"><strong>Pavel Kozlov</strong></h1>
-					<div class="container-fluid" >
-						<div class="jumbotron jumbotron-fluid" >
-							<h2>Web developer to be.</h2>
-							<p>Never stop learning and always improve your skiils. There is no reason to not learn something new each day.</p>
-						</div>
-					</div>
-				</div>
-				
-				
-				<div  id="portfolio" style="padding-top: 40px;">
-					<div class="container-fluid">
-						<div class="row">
-							<h1 class="text-center">Portfolio</h1>
-						</div>
-						<div class="row">
-						  <div class="col-md-4">
-						    <div class="thumbnail">
-						      <a href="#" target="_blank">
-						        <img src="images\WIP_TEMPLATE.jpeg" alt="Lights" style="width:100%">
-						        <div class="caption">
-						          <p>WIP #1</p>
-						        </div>
-						      </a>
-						    </div>
-						  </div>
-						  <div class="col-md-4">
-						    <div class="thumbnail">
-						      <a href="#" target="_blank">
-						        <img src="images\WIP_TEMPLATE.jpeg" alt="Nature" style="width:100%">
-						        <div class="caption">
-						          <p>WIP #2</p>
-						        </div>
-						      </a>
-						    </div>
-						  </div>
-						  <div class="col-md-4">
-						    <div class="thumbnail">
-						      <a href="#" target="_blank">
-						        <img src="images\WIP_TEMPLATE.jpeg" alt="Fjords" style="width:100%">
-						        <div class="caption">
-						          <p>WIP #3</p>
-						        </div>
-						      </a>
-						    </div>
-						  </div>
-						</div>
-						
-						<div class="row">
-						  <div class="col-md-4">
-						    <div class="thumbnail">
-						      <a href="#" target="_blank">
-						        <img src="images\WIP_TEMPLATE.jpeg" alt="Lights" style="width:100%">
-						        <div class="caption">
-						          <p>WIP #4</p>
-						        </div>
-						      </a>
-						    </div>
-						  </div>
-						  <div class="col-md-4">
-						    <div class="thumbnail">
-						      <a href="#" target="_blank">
-						        <img src="images\WIP_TEMPLATE.jpeg" alt="Nature" style="width:100%">
-						        <div class="caption">
-						          <p>WIP #5</p>
-						        </div>
-						      </a>
-						    </div>
-						  </div>
-						  <div class="col-md-4">
-						    <div class="thumbnail">
-						      <a href="#" target="_blank">
-						        <img src="images\WIP_TEMPLATE.jpeg" alt="Fjords" style="width:100%">
-						        <div class="caption">
-						          <p>WIP #6</p>
-						        </div>
-						      </a>
-						    </div>
-						  </div>
-						</div>
+    <div class="headerContentBox">
+        <div class="container">
+            <div id="home" class="jumbotron">
+                <h1>Flawless I.T.</h1>
+                <p>Smart Information Technology Support for your business.</p>
+                <p style="color: var(--compColorTint)">We can help you keep your business I.T. infrastructure F.I.T.</p>
+            </div>
+        </div>
+    </div>
+    <hr style="margin: 0; border-width: 14pt; border-color: var(--secondaryCol)">
+    <div id="aboutus" class="textDisplayBox">
+        <div>
+            <h2 style="text-align: center">WHO WE ARE</h2>
+            <p>Flawless Information Technology Consulting is here to help you succeed in all aspects of your technology infrastructure from architecture design, planning, implementation, upgrade, and migration services.</p>
+            <p>Our dedication to the client and our strive for the flawless customer experience is what we known for.</p>
+        </div>
 
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+        <div class="row " style="padding-bottom: 45pt; padding-top: 15pt;">
+            <div class="col-md-4" style="text-align: center">
+                <div class="infoBars">
+                    <img src="images/icons/goals.png" alt="target icon">
+                    <h3>OUR GOALS</h3>
+                    <hr class="smallLineBlue">
+                    <p>Reliable, Personalized, Cost-Effective Information Technology Consulting Services. We value our time and time of our clients.</p>
+                </div>
+            </div>
+            <div class="col-md-4" style="text-align: center">
+                <div class="infoBars">
+                    <img src="images/icons/users.png" alt="team icon">
+                    <h3>OUR TEAM</h3>
+                    <hr class="smallLineBlue">
+                    <p>Our trained professionals always available to support your environment. <span style="color: var(--compColorTint)">24x7.</span> There is no small job for us.</p>
+                </div>
+            </div>
+            <div class="col-md-4" style="text-align: center">
+                <div class="infoBars">
+                    <img src="images/icons/bulb.png" alt="bulb icon">
+                    <h3>DEDICATION</h3>
+                    <hr class="smallLineBlue">
+                    <p>We do not divide our clients on BIG or SMALL. Everyone is treated equally and with the same amount of attention.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr style="margin: 0; border-width: 14pt; border-color: var(--secondaryCol)">
+    <div style="background-image: url(images/ServerRoom_BG.jpg); background-repeat: no-repeat; background-position: center; background-attachment:scroll; background-color: var(--primaryColShade);)">
+        <div class="textDisplayBox" style="padding-bottom: 45pt;">
+            <a id="services" class="anchor"></a>
+            <div>
+                <h2 style="text-align: center">WHAT WE DO</h2>
+                <p style="color: var(--primaryColTint)">We offer the wide range of consulting services from virus removal and performance troubleshooting to servers and network support.</p>
+                <p style="color: var(--primaryColTint)">The list is by no means all-inclusive, please feel free to inquire about a service if you do not see it listed.</p>
+            </div>
+
+            <div class="row" style="padding-top: 15pt;">
+                <div class="col-md-4" style="text-align: center">
+                    <div class="infoBars">
+                        <img src="images/icons/monitor.png" alt="desktop monitor">
+                        <h3>WORKSTATION SUPPORT</h3>
+                        <hr class="smallLineRed">
+                    
+                    </div>
+                </div>
+                <div class="col-md-4" style="text-align: center">
+                    <div class="infoBars">
+                        <img src="images/icons/applications.PNG" alt="windows icon">
+                        <h3>SOFTWARE SUPPORT</h3>
+                        <hr class="smallLineRed">
+                    
+                    </div>
+                </div>
+                <div class="col-md-4" style="text-align: center">
+                    <div class="infoBars">
+                        <img src="images/icons/network.png" alt="network icon">
+                        <h3>NETWORK SUPPORT</h3>
+                        <hr class="smallLineRed">
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="">
+                <div class="col-md-4" style="text-align: center">
+                    <div class="infoBars">
+                        <img src="images/icons/printers.png" alt="printer icon">
+                        <h3>PERIPHERAL SUPPORT</h3>
+                        <hr class="smallLineRed">
+                    
+                    </div>
+                </div>
+                <div class="col-md-4" style="text-align: center">
+                    <div class="infoBars">
+                        <img src="images/icons/servers.png" alt="servers icon">
+                        <h3>SERVERS SUPPORT</h3>
+                        <hr class="smallLineRed">
+                    
+                    </div>
+                </div>
+                <div class="col-md-4" style="text-align: center">
+                    <div class="infoBars">
+                        <img src="images/icons/backup.png" alt="timeback icon">
+                        <h3>DATA BACKUP SOLUTION</h3>
+                        <hr class="smallLineRed">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr style="margin: 0; border-width: 14pt; border-color: var(--secondaryCol)">
+
+
 </body>
-
-
-<footer id="myFooter" class="container-fluid">
-	<div class="row" style="margin-top:5px; padding-top:5px; padding-bottom:10px">
-		<div class="col-md-5 col-md-offset-7">
-			<div class="row">
-				<p class="text-left">FIND ME ON:</p>
-			</div>
-			<div class="row">
-				<div id="findOnSocial" class="btn-group">
-				  <a href="Https://www.facebook.com/Pashlik" class="btn btn-info" role="button"><span class="fa fa-facebook" target="_blank"></span> Facebook</a>
-				  <a href="https://www.linkedin.com/in/pavel-kozlov-12178231/" class="btn btn-info" role="button" target="_blank"><span class="fa fa-linkedin"></span> LinkedIn</a>
-				  <a href="https://github.com/MisterPav" class="btn btn-info" role="button"><span class="fa fa-github" target="_blank"></span> GitHub</a>	
-  				  <a href="https://twitter.com/3aChupatto" class="btn btn-info" role="button"><span class="fa fa-twitter" target="_blank"></span> Twitter</a>	
-				</div>	
-			</div>
-		</div>			
-	</div>
-	<div id="myCopyRight" class="row">
-			<p class="text-center">Designed and Coded by <strong>Pavel Kozlov</strong></p>
-	</div>
+<div id="contacts" class="lowerDiv container-fluid">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="col-sm-6">
+                <p>LETS TALK:</p>
+            </div>
+        </div>
+        
+        <div class="col-sm-6">
+            <span class="glyphicon glyphicon-envelope" style="top: .21em; color: var(--colorBurn)"> </span>
+            <span style="font-variant: small-caps;">support@flawless-it.com</span><br>
+            <span class="glyphicon glyphicon-earphone" style="top: .21em; color: var(--colorBurn)"> </span>
+            <span>(831) 218-7575</span>
+            <hr class="smallLineRed" style="margin-top: 25pt; width: 100%;">
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="panel-footer" style="color: var(--secondaryShade);font-variant: small-caps; text-align: center; padding-bottom: 1pt ">
+        <p>designed and coded by pk</p>
+    </div>
 </footer>
 </html>
