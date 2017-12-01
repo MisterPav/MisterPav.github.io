@@ -121,9 +121,9 @@ a.anchor {
     padding: 10pt 20pt 10pt 20pt;
     color: var(--primaryColTint);
     margin-bottom: 15pt;
-    transition: background 1.5s linear;
-    -webkit-transition: background 1.5s linear;
-    -moz-transition: background 1.5s linear;
+    transition: background .2s linear;
+    -webkit-transition: background .2s linear;
+    -moz-transition: background .2s linear;
 }
 
 .infoBars:hover {
