@@ -200,7 +200,11 @@ a.anchor {
     border-style: none;
 }
 
-
+#whatWeDo{
+    background: var(--primaryColShade) url(../images/ServerRoom_BG.jpg) no-repeat center ; 
+    background-size: cover;
+    
+}
 
 
 
